@@ -26,7 +26,7 @@ if (pinAns.pin === pin) {
         let amountAns = await inquirer.prompt([
             {
                 name: "amount",
-                message: "Enter an amount you want to withdaw",
+                message: "Enter an amount you want to withdraw",
                 type: "number",
             }
         ]);
